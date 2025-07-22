@@ -1,5 +1,6 @@
 from core.database import engine
-from models.feedback import Feedback
+from app.models.feedback import Feedback
+from app.models.user import User 
 from core.database import Base
 
 def init():
